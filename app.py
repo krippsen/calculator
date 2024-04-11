@@ -1,0 +1,1 @@
+print("Zdraví tě kalkulačka")

@@ -17,3 +17,4 @@ jobs:
       - name: Run Pylint (Linting)
         run: pylint calc.py || true # Pylint vrací nenulový kód při chybách, proto `|| true`
       - name: Check Formatting with Black
+        run: black --check calc.py
